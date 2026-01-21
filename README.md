@@ -1,8 +1,27 @@
-The stack that is being used: React (custom hooks, context, portals), Firebase (Firestore/auth), Compound & Styled components!
+# Netflix Clone – React & Firebase
 
-Hey! I finally finished this Netflix clone (took me more time than I expected 😅). My idea was to make everything static (movies, series, tv shows, ...) but then I found this really cool TMDB API which you can pull most popular movies, top rated shows, what's trending, collections, lists and muuuch more. Really worth checking the effort made.
+A modern **Netflix-style streaming interface** built with React and Firebase, featuring dynamic movie and TV show data from **TMDB API**. This project demonstrates advanced React concepts, responsive design, and real-time authentication & database integration.
 
-First use the <b>Firebase App</b> api key of your's as the project's api keys has been removed and you can add them in /lib/firebase.prod.js file and <b>tmdb</b> api key also needs to be changed, which is present in request.js file under the project directory.
+---
+
+## ✨ Project Overview
+
+This app recreates a **Netflix-like browsing experience**, allowing users to explore trending movies, top-rated series, and curated collections. The interface is fully responsive, interactive, and designed using **Compound and Styled Components** for modular, reusable UI.  
+
+Dynamic content is powered by **TMDB API**, while **Firebase** handles authentication and persistent user data.
+
+---
+## 🚀 Key Features
+
+- Browse popular, trending, and top-rated movies/series  
+- Dynamic banners and featured sections  
+- Trailer playback via modals and portals  
+- User authentication (signup/login)  
+- Persistent user data using Firestore  
+- Fully responsive for desktop and mobile  
+
+---
+
 
 <img src="/images/demo1.png">
 
@@ -11,6 +30,30 @@ First use the <b>Firebase App</b> api key of your's as the project's api keys ha
 With Youtube Trailers Embeded
 
 <img src="/images/demo3.png">
+
+
+
+## 🛠️ Technology Stack
+
+**Frontend:**
+- **React.js** – Functional components, **custom hooks**, **Context API**, **Portals**  
+- **Styled Components & Compound Components** – For clean, reusable UI  
+- **React Router DOM** – Page routing and navigation  
+
+**Backend & Services:**
+- **Firebase** – Authentication, Firestore database  
+- **TMDB API** – Fetch movies, TV shows, trending content, and collections  
+
+**Other Tools:**
+- **Axios** – HTTP requests to TMDB API  
+- **React Player / Embedded YouTube** – Play trailers 
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sakshiphanse22/netflix-clone-react.git
+cd netflix-clone-react
 
 
 # Getting Started with Create React App
@@ -33,53 +76,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
